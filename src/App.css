@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  margin-left: 20px;
 }
 
 .App-logo {
@@ -26,6 +27,17 @@
 
 .App-link {
   color: #61dafb;
+}
+
+ul {
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
+.students {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 @keyframes App-logo-spin {
