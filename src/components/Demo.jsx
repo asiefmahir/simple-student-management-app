@@ -3,8 +3,8 @@ const Demo = (props) => {
     return (
         <div className = "Demo">
             Hello Demo
-            {props.names.map(name => (
-                <p>{name}</p>
+            {props.amariccha.map(student => (
+                <p onClick = {()=> props.ammaricchareFunction("I am called")} >{student.name}</p>
             ))}
         </div>
     )
